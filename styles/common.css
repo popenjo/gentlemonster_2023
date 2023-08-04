@@ -52,7 +52,11 @@ header #open_nav {
     background:#f1f1f1;
     overflow-y:auto; /* web브라우저 y축 기준으로 내용이 넘어갈 경우 스크롤을 표시하고 넘어가지 않는다면 스크롤을 숨긴다.*/
 }
-header #open_nav #nav_close {width:30px; height:30px; position:fixed; right:200px; top:100px; z-index:999;}
+header #open_nav #nav_close {
+    width:30px; height:30px; 
+    position:fixed; right:200px; top:100px; 
+    z-index:999;
+}
 header #open_nav #nav_close img {width:30px; height:30px;}
 header #open_nav #nav_close img:hover {}
 header #open_nav #nav_adver {

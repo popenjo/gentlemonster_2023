@@ -98,3 +98,22 @@ header #open_nav nav a:nth-child(7):hover{
 }
 header #open_nav #nav_adver .swiper-button-prev::after,
 header #open_nav #nav_adver .swiper-button-next::after {display:none;}
+/* footer */
+footer {width:1440px; margin:70px 30px;}
+footer .f_menu {display:flex; margin-bottom:40px;}
+footer .f_menu .service, .legal, .sns {margin-right:115px;}
+footer .f_menu div dt {font-size:1.1rem; font-weight:600; margin-bottom:23px; letter-spacing:-0.02em;}
+footer .f_menu div dd {margin-bottom:15px;}
+footer .f_menu .service dd a:hover {color:#5FC09D;}
+footer .f_menu .legal dd a:hover {color:#DA8181;}
+footer .f_menu .sns dd a:hover {color:#436BD2;}
+footer .f_menu .service dd:last-child a:hover {color:#aaa;}
+footer .f_menu .service dd a {letter-spacing:-0.02em;}
+footer .f_menu .legal dd a {letter-spacing:-0.02em;}
+footer .f_menu .sns dd a {letter-spacing:-0.02em;}
+/* copy */
+footer .f_copy {display:flex;}
+footer .f_copy .logo {width:200px;}
+footer .f_copy .logo img {width:100%;}
+footer .f_copy address {line-height:30px; margin:-10px 0 0 30px;}
+footer .f_copy address a {text-decoration:underline;}

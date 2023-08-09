@@ -1,0 +1,101 @@
+
+main {max-width:980px;}
+main {width:1440px; height:90vh; margin:0 auto; text-align:center; letter-spacing:-0.02em;}
+main .all {margin-top:100px;}
+main .all .top {}
+main .all .top h1 {}
+main .all .top h1 .title_logo {}
+main .all .top h1 .title_logo img {width:300px; height:30px;}
+main .all .top p {
+    margin-top:10px;
+    font-size:1.1rem; font-weight:600;
+}
+/* login */
+main .all .login {margin-top:60px;}
+main .all .login .login_ct {
+    display:flex; flex-flow:row nowrap;
+    justify-content:space-evenly;
+    margin:0 190px;
+    position:relative;
+}
+main .all .login .login_ct::after {
+    display:block; content:''; width:500px;
+    position:absolute; bottom:-15px;
+    border-bottom:3px solid #000;
+}
+main .all .login .login_ct p {}
+main .all .login .login_ct p a {
+    font-size:1.1rem;
+}
+main .all .login .login_ct p a:last-child {}
+main .all .login .id_pw {margin-top:25px;}
+main .all .login .id_pw fieldset {
+    display:flex; flex-flow:column nowrap;
+    align-items: center;
+}
+main .all .login .id_pw fieldset #login_id, #login_pw {
+    padding:15px 260px 15px 20px; border:1px solid #222; margin-top:20px;
+    
+}
+main .all .login .id_pw fieldset #login_pw {}
+main .all .login .id_pw fieldset #pw_check {
+    opacity:0;
+}
+main .all .login .id_pw fieldset #login_id::placeholder {color:#C2C2C2;}
+main .all .login .id_pw fieldset #login_pw::placeholder {color:#C2C2C2;}
+main .all .login .id_pw fieldset label {
+    display: inline-block;
+    text-indent: -9999px;
+    overflow: hidden;
+    width:23px; height:23px;
+    background:url(../images/pw_lookout.png) no-repeat center;
+    background-size:cover; 
+    position:relative; left:210px; bottom:35px;
+}
+main .all .login .id_pw #login_btn {
+    padding:20px 215px; border-radius:20px; background: #222; color: #fff;
+    margin-top:65px;
+}
+/* find */
+main .all .find {
+    margin-top:35px;
+}
+main .all .find a {
+    font-weight:600;
+}
+main .all .find a::after {
+    content:'';
+    width:1px; height:15px;
+    background:#000; display:inline-block;
+    margin:0 35px;
+}
+main .all .find a:first-child {}
+main .all .find a:last-child::after {display:none;}
+/* sns_login */
+main .all .sns_login {
+    margin-top:65px;
+}
+main .all .sns_login ul {}
+main .all .sns_login ul li {
+    margin-top:50px;
+}
+main .all .sns_login ul li .naver {
+    color:#5ac451;
+}
+main .all .sns_login ul li .naver, .apple{
+    padding:15px 170px; border:1px solid #5ac451;
+    border-radius:20px;
+}
+main .all .sns_login ul li .apple {
+    border:1px solid #000; font-weight:600;
+}
+main .all .sns_login ul li .kakao {
+    padding:15px 165px; 
+    background:#FFE812; border-radius:20px;
+    font-weight:600; color:#3B1D1D;
+}
+main .all .sns_login ul li .naver img {width:23px; height:23px;}
+main .all .sns_login ul li a > img {
+    width:25px; height:25px; margin-right:10px;
+    position:relative; top:5px;
+}

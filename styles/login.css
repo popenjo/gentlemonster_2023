@@ -23,11 +23,16 @@ main .all .login .login_ct::after {
     position:absolute; bottom:-15px;
     border-bottom:3px solid #000;
 }
-main .all .login .login_ct p {}
+main .all .login .login_ct p:first-child::after {}
+main .all .login .login_ct p:first-child a {
+    color:#5C9FB5;
+}
 main .all .login .login_ct p a {
     font-size:1.1rem;
 }
-main .all .login .login_ct p a:last-child {}
+main .all .login .login_ct p .non_login {
+    color:#adadad;
+}
 main .all .login .id_pw {margin-top:25px;}
 main .all .login .id_pw fieldset {
     display:flex; flex-flow:column nowrap;

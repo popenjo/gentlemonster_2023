@@ -6,12 +6,16 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <title>LOGIN | GENTLEMONSTER</title>
+    <!-- 스와이퍼 -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/common.css">
     <link rel="stylesheet" href="./styles/login.css">
 </head>
 <body>
     <!-- header -->
+    <?php include('./header.php') ?>
     <main>
         <div class="all">
             <div class="top">
@@ -21,7 +25,7 @@
             <div class="login">
                 <div class="login_ct">
                     <p><a href="#">회원 로그인</a></p>
-                    <p><a href="#">비회원 주문조회</a></p>
+                    <p><a href="#" class="non_login">비회원 주문조회</a></p>
                 </div>
                 <div class="id_pw">
                     <form action="#" method="get">
@@ -51,5 +55,8 @@
         </div>
     </main>
     <!-- footer -->
+    <?php include('./footer.php') ?>
+    <!-- header, footer 웹페이지 공통영역 적용JS -->
+    <script src="./script/common.js"></script>
 </body>
 </html>

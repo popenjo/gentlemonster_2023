@@ -1,0 +1,76 @@
+main {letter-spacing:-0.02em;}
+main #category {
+    margin:0 auto; width:1350px;
+    display:flex; flex-flow:row nowrap;
+    justify-content: space-between; align-items: center;
+}
+main #category a {display:flex; flex-flow:column; align-items: center;}
+main #category a img {margin-bottom:15px;}
+main #category a img span {}
+/* product_list */
+main #product_list {width:1350px; margin:0 auto;}
+main #product_list .title {}
+main #product_list .title .top {
+    display:flex; justify-content: space-between; align-items:flex-end;
+    margin-top:121px;
+}
+main #product_list .title .top h1 {
+    font-size:2rem; font-weight:600;
+}
+main #product_list .title .top .top_right {}
+main #product_list .title .top .top_right a {
+    font-size:1.175rem; margin-right:10px; font-weight:600;
+}
+main #product_list .title .top .top_right a:last-child {margin-right:0;}
+main #product_list .title::after {
+    display:block; content:''; position:relative; bottom:28px;
+    width:1350px; border-bottom:1px solid #000;
+}
+main #product_list .title .btn {
+    margin-top:20px;
+    display:flex; flex-flow:row nowrap;
+    justify-content: space-between;
+}
+main #product_list .title .btn p {
+    font-weight:600;
+}
+main #product_list .title .btn #product_align {font-weight:600; background:#fff;}
+/* container */
+main #product_list .container {margin-top:100px;}
+main #product_list .container ul {display:flex; justify-content:space-between;}
+main #product_list .container ul .item {
+    display:flex; flex-flow:column;
+}
+main #product_list .container ul .item .item_img {position:relative;}
+main #product_list .container ul .item .item_img img{width:260px; height:295px;}
+main #product_list .container ul .item .like_img {}
+main #product_list .container ul .item .like_img img {
+    position:relative; left:225px; bottom:285px;
+    width:20px; height:20px;
+}
+main #product_list .container ul .item .txt {}
+main #product_list .container ul .item .txt h2 {margin-bottom:10px;}
+main #product_list .container ul .item .txt dt {margin-bottom:8px;}
+main #product_list .container ul .item .txt dd {margin-bottom:10px;}
+/* color */
+main #product_list .container ul .item .color {
+    display:flex;
+}
+main #product_list .container ul .item .color span {
+    display:block; margin-right:3px;
+    width:25px; height:25px; background:aqua;
+    border-radius:50px;
+}
+main #product_list .container ul .item .color span:last-child {margin-right:0;}
+main #product_list .container ul .item .color span:nth-child(1) {
+    background:#000;
+}
+main #product_list .container ul .item .color span:nth-child(2) {
+    background:#8D8D8D;
+}
+main #product_list .container ul .item .color span:nth-child(3) {
+    background:#d9d9d9;
+}
+main #product_list .container ul .item .color span:nth-child(4) {
+    background:#F28180;
+}
